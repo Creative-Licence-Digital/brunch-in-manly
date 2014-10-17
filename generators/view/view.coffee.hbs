@@ -1,0 +1,11 @@
+class {{#camelize}}{{name}}{{/camelize}}View extends Backbone.View
+
+  template: require "./templates/{{name}}"
+
+  serialize: ->
+
+  initialize: ->
+    @$el.html(@template(@serialize()))
+
+
+module.exports = {{#camelize}}{{name}}{{/camelize}}

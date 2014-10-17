@@ -1,0 +1,14 @@
+{
+  "files": [{
+    "from": "view.coffee.hbs",
+    "to": "app/views/{{name}}.coffee"
+  },
+  {
+    "from": "view.jade.hbs",
+    "to": "app/views/templates/{{name}}.jade"
+  },
+  {
+    "from": "view.sass.hbs",
+    "to": "app/sass/views/_{{name}}.sass"
+  }]
+}
